@@ -86,5 +86,6 @@ public class Principal {
 				System.out.println("Opcion incorrecta");
 			}
 		} while (opcion != 0);
+		teclado.close();
 	}
 }
